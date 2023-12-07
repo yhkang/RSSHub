@@ -16883,6 +16883,19 @@
       }
     ]
   },
+  "kepu.net.cn": {
+    "_name": "中国科普博览",
+    "live": [
+      {
+        "title": "直播回看",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-ke-pu-bo-lan-zhi-bo-hui-kan",
+        "source": [
+          "/replay/index"
+        ],
+        "target": "/kepu/live"
+      }
+    ]
+  },
   "keylol.com": {
     "_name": "其乐",
     ".": [
@@ -19731,6 +19744,20 @@
           "/"
         ],
         "target": "/ncepu/master/pyxx"
+      }
+    ]
+  },
+  "ncu.edu.cn": {
+    "_name": "南昌大学",
+    ".": [
+      {
+        "title": "教务通知",
+        "docs": "https://docs.rsshub.app/routes/university#nan-chang-da-xue",
+        "source": [
+          "/",
+          "/jwtz/index.htm"
+        ],
+        "target": "/ncu/jwc"
       }
     ]
   },
