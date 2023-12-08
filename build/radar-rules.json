@@ -19749,7 +19749,7 @@
   },
   "ncu.edu.cn": {
     "_name": "南昌大学",
-    ".": [
+    "jwc": [
       {
         "title": "教务通知",
         "docs": "https://docs.rsshub.app/routes/university#nan-chang-da-xue",
@@ -22966,6 +22966,19 @@
           "/ko"
         ],
         "target": "/rodong/news"
+      }
+    ]
+  },
+  "routledge.com": {
+    "_name": "Routledge",
+    ".": [
+      {
+        "title": "Book Series",
+        "docs": "https://docs.rsshub.app/routes/journals#routledge",
+        "source": [
+          "/:bookName/book-series/:bookId"
+        ],
+        "target": "/routledge/:bookName/book-series/:bookId"
       }
     ]
   },
